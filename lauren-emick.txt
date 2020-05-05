@@ -135,7 +135,17 @@ https://codepen.io/LaurenEmick/pen/XWmVxbQ
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    Inline elements take up only as much space as is needed, block elements take up an entire row
+
     2. What happens when an element is positioned absolutely? 
+    When you absolute position an element, it no longer takes up the space it used to and is now essentially ‘floating’ on your screen, above the surrounding elements. You can now position an absolute value exactly where you want it to go.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    position: relative; 
+  
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Block: div, h1-h6, p, ul/ol, li
+    Inline: span, strong 
+    Inline-block: img
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
