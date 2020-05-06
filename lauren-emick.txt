@@ -149,3 +149,6 @@ Stretch Questions
     Inline-block: img
 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    A box that wraps around each element and helps create your website layout. 
+    Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+    Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
